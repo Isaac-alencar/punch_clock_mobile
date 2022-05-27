@@ -1,6 +1,6 @@
 import React from "react";
-import Body from "../body/body";
-import Header from "../header/header";
+import Body from "@components/body/body";
+import Header from "@components/header/header";
 
 const Template = ({ children }) => {
   return (

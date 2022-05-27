@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 
-import FistIcon from '../../../assets/icons/fist.png';
+import FistIcon from '@assets/icons/fist.png';
 
 import { Container, Icon } from './floating-button.styles';
 

@@ -1,9 +1,9 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import PunchListScreen from "../screens/punch-list/punch-list-screen";
-import SettingsScreen from "../screens/settings/settings-screen";
-import CalendarScreen from "../screens/calendar/calendar-screen";
+import PunchListScreen from "@screens/punch-list/punch-list-screen";
+import SettingsScreen from "@screens/settings/settings-screen";
+import CalendarScreen from "@screens/calendar/calendar-screen";
 
 const Stack = createNativeStackNavigator();
 

@@ -1,4 +1,4 @@
-import { render, fireEvent } from "../../test/test-utils";
+import { render, fireEvent } from "@test/test-utils";
 import Header from "./header";
 import { useNavigation } from "@react-navigation/native";
 

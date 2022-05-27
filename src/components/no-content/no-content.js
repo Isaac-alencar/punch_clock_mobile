@@ -1,9 +1,9 @@
 import React from "react";
-import Template from "../template/template";
+import Template from "@components/template/template";
 import { FontAwesome5 } from "@expo/vector-icons";
 
 import { Container, Message } from "./no-content.styles";
-import theme from "../../styles/theme";
+import theme from "@styles/theme";
 
 const NoContent = ({ message }) => {
   return (

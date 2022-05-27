@@ -1,12 +1,12 @@
 import React from "react";
-import { View, FlatList, Text } from "react-native";
+import { View, FlatList } from "react-native";
 import PunchCard from "./compose/punch-card/punch-card";
-import Template from "../../components/template/template";
-import FloatingButton from "../../components/floating-button/floating-button";
-import theme from "../../styles/theme";
+import Template from "@components/template/template";
+import FloatingButton from "@components/floating-button/floating-button";
+import theme from "@styles/theme";
 import { moderateScale } from "react-native-size-matters";
 import usePunches from "./hooks/use-punches";
-import NoContent from "../../components/no-content/no-content";
+import NoContent from "@components/no-content/no-content";
 
 const PunchListScreen = () => {
   const { punches, deletePunch } = usePunches();

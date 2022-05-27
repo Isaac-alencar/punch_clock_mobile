@@ -1,5 +1,5 @@
 import { ThemeProvider } from "styled-components/native";
-import theme from "../styles/theme";
+import theme from "@styles/theme";
 import { NavigationContainer } from "@react-navigation/native";
 import { render } from "@testing-library/react-native";
 

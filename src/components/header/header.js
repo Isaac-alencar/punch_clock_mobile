@@ -6,8 +6,8 @@ import {
   Logo,
   SettingsIcon,
 } from "./header.styles";
-import CMLogo from "../../../assets/codeminer-logo.png";
-import CogIcon from "../../../assets/icons/cog.png";
+import CMLogo from "@assets/codeminer-logo.png";
+import CogIcon from "@assets/icons/cog.png";
 import { useNavigation } from "@react-navigation/native";
 import { MaterialIcons } from "@expo/vector-icons";
 import { moderateScale } from "react-native-size-matters";

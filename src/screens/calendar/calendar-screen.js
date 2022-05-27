@@ -1,6 +1,6 @@
 import React from "react";
 import { Text, View } from "react-native";
-import Template from "../../components/template/template";
+import Template from "@components/template/template";
 
 const CalendarScreen = () => {
   return (
