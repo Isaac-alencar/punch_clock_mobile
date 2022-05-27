@@ -47,6 +47,7 @@ export const RemoveCard = styled.TouchableOpacity`
   border-top-left-radius: ${moderateScale(8)}px;
   border-bottom-left-radius: ${moderateScale(8)}px;
   border: ${({ theme }) => theme.colors.disabled};
+  margin-right: ${moderateScale(-8)}px;
 `;
 
 export const RemoveCardText = styled.Text`
